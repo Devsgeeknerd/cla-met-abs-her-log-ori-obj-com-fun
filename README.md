@@ -73,6 +73,8 @@ A aula explora a sintaxe, as regras e as boas práticas relacionadas ao uso de m
 
 #### Dart
 
+1. [Animal.](animal.dart)
+
 <!-- Informações -->
 ## &#8505; Informações
 
