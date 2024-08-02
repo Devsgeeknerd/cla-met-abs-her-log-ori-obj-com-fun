@@ -74,6 +74,9 @@ A aula explora a sintaxe, as regras e as boas práticas relacionadas ao uso de m
 #### Dart
 
 1. [Animal.](animal.dart)
+2. [Programa.](programa.dart)
+3. [Cachorro.](cachorro.dart)
+4. [Gato.](gato.dart)
 
 <!-- Informações -->
 ## &#8505; Informações
