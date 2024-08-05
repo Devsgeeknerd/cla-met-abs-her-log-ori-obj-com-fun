@@ -22,5 +22,11 @@ public class Programa {
         } else {
             System.out.println("Seu cachorro não é adulto");
         }
+
+        if (gato.ehAdulto()) {
+            System.out.println("Seu gato é adulto");
+        } else {
+            System.out.println("Seu gato não é adulto");
+        }
     }
 }
