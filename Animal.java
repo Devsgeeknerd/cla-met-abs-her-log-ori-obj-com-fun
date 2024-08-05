@@ -34,4 +34,9 @@ public abstract class Animal {
     this.especie = especie;
     this.idade = idade;
   }
+
+  // Sobrecarga
+  public Animal(String nome) {
+    this.nome = nome;
+  }
 }
