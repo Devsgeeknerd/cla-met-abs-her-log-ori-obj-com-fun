@@ -20,4 +20,8 @@ public abstract class Animal {
   public void setEspecie(String especie) {
     this.especie = especie;
   }
+
+  public int getIdade(){
+    return idade;
+  }
 }
