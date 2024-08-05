@@ -12,4 +12,8 @@ public abstract class Animal {
   public void setNome(String nome) {
     this.nome = nome;
   }
+
+  public String getEspecie() {
+    return especie;
+  }
 }
