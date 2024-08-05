@@ -39,4 +39,6 @@ public abstract class Animal {
   public Animal(String nome) {
     this.nome = nome;
   }
+
+  public abstract void emitirBarulho();
 }
