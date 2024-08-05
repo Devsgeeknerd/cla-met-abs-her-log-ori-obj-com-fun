@@ -28,5 +28,9 @@ public class Programa {
         } else {
             System.out.println("Seu gato não é adulto");
         }
+
+        System.out.println("================");
+        System.out.println("Barulho do cachorro: ");
+        cachorro.emitirBarulho();
     }
 }
