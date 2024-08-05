@@ -10,5 +10,8 @@ public class Programa {
         Gato gato = new Gato("Tata", 2);
         cachorro.setEspecie("Cachorro");
         cachorro.setIdade(2);
+
+        System.out.println("Ola, seu animal é " + cachorro.getEspecie() + ", o nome do " + "animal é "
+                + cachorro.getNome() + " e ele tem " + cachorro.getIdade() + " anos.");
     }
 }
