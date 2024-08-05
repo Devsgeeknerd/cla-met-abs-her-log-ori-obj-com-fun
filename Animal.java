@@ -21,7 +21,11 @@ public abstract class Animal {
     this.especie = especie;
   }
 
-  public int getIdade(){
+  public int getIdade() {
     return idade;
+  }
+
+  public void setIdade(int idade) {
+    this.idade = idade;
   }
 }
