@@ -13,5 +13,8 @@ public class Programa {
 
         System.out.println("Ola, seu animal é " + cachorro.getEspecie() + ", o nome do " + "animal é "
                 + cachorro.getNome() + " e ele tem " + cachorro.getIdade() + " anos.");
+
+        System.out.println("Ola, seu animal é " + gato.getEspecie() + ", o nome do " + "animal é " + gato.getNome()
+                + " e ele tem " + gato.getIdade() + " anos.");
     }
 }
