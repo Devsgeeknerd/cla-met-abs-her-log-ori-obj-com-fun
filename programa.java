@@ -32,5 +32,9 @@ public class Programa {
         System.out.println("================");
         System.out.println("Barulho do cachorro: ");
         cachorro.emitirBarulho();
+
+        System.out.println("================");
+        System.out.println("Barulho do gato: ");
+        gato.emitirBarulho();
     }
 }
