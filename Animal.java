@@ -41,4 +41,9 @@ public abstract class Animal {
   }
 
   public abstract void emitirBarulho();
+
+  public boolean ehAdulto() {
+    return idade >= 1;
+  }
+
 }
