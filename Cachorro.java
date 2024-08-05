@@ -8,4 +8,8 @@ public class Cachorro extends Animal {
     public Cachorro(String nome, String especie, int idade) {
         super(nome, idade, especie);
     }
+
+    public Cachorro(String nome, int idade) {
+        super(nome, idade, "Cachorro");
+    }
 }
