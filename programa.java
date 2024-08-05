@@ -9,5 +9,6 @@ public class Programa {
         Cachorro cachorro = new Cachorro("Toto");
         Gato gato = new Gato("Tata", 2);
         cachorro.setEspecie("Cachorro");
+        cachorro.setIdade(2);
     }
 }
