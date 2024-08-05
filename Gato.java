@@ -12,5 +12,10 @@ public class Gato extends Animal {
     public Gato(String nome, int idade) {
         super(nome, idade, "Gato");
     }
-    
+
+    @override
+    public void emitirBarulho() {
+        System.out.println("Miado do gato");
+    }
+
 }
