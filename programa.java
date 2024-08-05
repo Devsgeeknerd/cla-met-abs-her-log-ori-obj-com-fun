@@ -8,5 +8,6 @@ public class Programa {
     public static void main(String[] args) {
         Cachorro cachorro = new Cachorro("Toto");
         Gato gato = new Gato("Tata", 2);
+        cachorro.setEspecie("Cachorro");
     }
 }
