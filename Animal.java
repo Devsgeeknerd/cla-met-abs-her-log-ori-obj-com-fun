@@ -28,4 +28,10 @@ public abstract class Animal {
   public void setIdade(int idade) {
     this.idade = idade;
   }
+
+  public Animal(String nome, int idade, String especie) {
+    this.nome = nome;
+    this.especie = especie;
+    this.idade = idade;
+  }
 }
