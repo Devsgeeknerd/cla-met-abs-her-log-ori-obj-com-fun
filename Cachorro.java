@@ -12,4 +12,9 @@ public class Cachorro extends Animal {
     public Cachorro(String nome, int idade) {
         super(nome, idade, "Cachorro");
     }
+
+    @override
+    public void emitirBarulho() {
+        System.out.println("Latido do cachorro");
+    }
 }
