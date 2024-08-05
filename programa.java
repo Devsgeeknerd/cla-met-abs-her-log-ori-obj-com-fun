@@ -16,5 +16,11 @@ public class Programa {
 
         System.out.println("Ola, seu animal é " + gato.getEspecie() + ", o nome do " + "animal é " + gato.getNome()
                 + " e ele tem " + gato.getIdade() + " anos.");
+
+        if (cachorro.ehAdulto()) {
+            System.out.println("Seu cachorro é adulto");
+        } else {
+            System.out.println("Seu cachorro não é adulto");
+        }
     }
 }
